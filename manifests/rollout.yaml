@@ -18,11 +18,11 @@ spec:
         - setWeight: 100  
 selector:
     matchLabels:
-      app: go-simple-webserver
+      app: go-simple-webserver1
   template:
     metadata:
       labels:
-        app: go-simple-webserver
+        app: go-simple-webserver1
     spec:
       containers:
         - name: webserver
