@@ -17,8 +17,8 @@ spec:
         - pause: { duration: 120s }
         - setWeight: 100  
 selector:
-    matchLabels:
-      app: go-simple-webserver
+  matchLabels:
+    app: go-simple-webserver
   template:
     metadata:
       labels:
